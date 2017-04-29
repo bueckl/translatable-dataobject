@@ -273,7 +273,7 @@ class TranslatableDataObject extends DataExtension
 		if($locale == Translatable::default_locale()){
 			return $field;
 		}
-		return $field . TRANSLATABLE_COLUMN_SEPARATOR . $locale;
+		return $field . '__' . $locale;
 	}
 	
 	/**

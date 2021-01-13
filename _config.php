@@ -25,4 +25,4 @@ if($num < 2){
 	define('TD_SS_COMPATIBILITY', TD_COMPAT_SS30X);
 }
 
-Object::add_extension('SiteTree', 'TranslatableUtility');
+SS_Object::add_extension('SiteTree', 'TranslatableUtility');

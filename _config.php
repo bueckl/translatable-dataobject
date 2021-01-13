@@ -16,7 +16,7 @@ if(!defined('TRANSLATABLE_COLUMN_SEPARATOR')){
 	define('TRANSLATABLE_COLUMN_SEPARATOR', '__');
 }
 
-$method = new ReflectionMethod('Object', 'has_extension');
+$method = new ReflectionMethod('SS_Object', 'has_extension');
 $num = $method->getNumberOfParameters();
 
 if($num < 2){
